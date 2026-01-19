@@ -24,4 +24,4 @@ fi
 if [ "$TRIGGER_SAFE_MODE" = true ]; then
   echo "$TIMESTAMP ACTION: Activating Safe Mode" >> $LOG_FILE
   bash $SAFE_MODE_SCRIPT
-fi
+fi bash ./alert_email.sh
