@@ -1,0 +1,12 @@
+[Unit]
+Description=Anti-Attack AI Security Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/anti-attack-ai/run.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
