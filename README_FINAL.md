@@ -33,4 +33,4 @@ Anti-Attack AI is a complete endpoint security system designed to:
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd <repository-folder>2. Run the installer:Start monitoring manually:
+cd <repository-folder>
